@@ -1,0 +1,2 @@
+select COUNT(*)-COUNT(DISTINCT CITY)
+from STATION;
